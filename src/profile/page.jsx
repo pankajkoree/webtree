@@ -38,7 +38,7 @@ const Profile = () => {
   console.log(data);
 
   return (
-    <div className="relative flex items-center justify-center border-2 border-slate-600 rounded-xl top-[200px]">
+    <div className="relative flex items-center justify-center border-2 border-slate-600 hover:bg-purple-600 hover:border-none hover:text-white rounded-xl top-[200px]">
       {data && (
         <div className="text-center relative flex xl:w-[600px] xl:h-[400px] p-4">
           <div className="relative flex w-[35%] px-auto justify-center items-center">
